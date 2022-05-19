@@ -78,15 +78,15 @@ body{
 
 /* contact-list */
 
-.contact-list .contact-link{
+.contact-link{
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
 
     color: var(--primary-text-color);
 }
-.contact-list .contact-link:hover, 
-.contact-list .contact-link:focus{
+.contact-link:hover, 
+.contact-link:focus{
     color: var(--accent-color);
 }
 
@@ -163,22 +163,28 @@ body{
 .footer{
     background-color: var(--footer-color);
 }
+
 .footer-item{
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+
 
 }
 .address-link{
     color: var(--white-color);
 }
 
+.footer-contact-link{
+    color: var(--primary-text-color);
+}
 
-.contact-link{
+.footer-contact-link{
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-link:hover,
-.contact-link:focus{
+.footer-contact-link:hover,
+.footer-contact-link:focus{
     color: var(--accent-color);
 }
 
