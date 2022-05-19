@@ -174,7 +174,7 @@ border: 1px solid #ECECEC;
 .work-item{
     margin-right: 30px;
 }
-.work-item:nth-child(4){
+.work-item:last-child{
     margin-right: 0px;
 }
 .work-subtitle{
