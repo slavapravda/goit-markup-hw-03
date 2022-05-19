@@ -165,18 +165,10 @@ body{
 }
 
 .footer-item{
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
-
 }
 .address-link{
     color: var(--white-color);
-}
-
-.footer-contact-link{
-    color: var(--primary-text-color);
 }
 
 .footer-contact-link{
