@@ -13,7 +13,6 @@
   --footer-color: #2f303a;
   --team-color: #f5f4fa;
 }
-
 h1,
 h2,
 h3,
@@ -175,8 +174,6 @@ body {
 /* hero */
 
 .hero {
-  height: 600px;
-
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
