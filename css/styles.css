@@ -90,8 +90,14 @@ body{
 /* header */
 .header{
 border: 1px solid #ECECEC;
-
 }
+
+.header-conteiner{
+    display: flex;
+    align-items: center;
+}
+
+
 
 /* logo */
 
@@ -104,22 +110,40 @@ border: 1px solid #ECECEC;
     line-height: 1.19;
 }
 .header-logo{
+    margin-right: 93px;
     color: var(--title-text-color);
 }
 
-.footer-logo {
-    color: var(--white-color)
-}
 
 /* nav-list */
 
+
+.nav-list{
+    display:flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+.nav-item:last-child{
+    margin-right: 0;
+}
+
 .nav-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
 
     color: var(--title-text-color);
 }
+
+
+
 .nav-link.current{
     color: var(--accent-color);
 }
@@ -128,9 +152,22 @@ border: 1px solid #ECECEC;
     color: var(--accent-color) ;
 }
 
-/* contact-list */
+.contact-list{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.contact-item{
+    margin-right: 50px;
+}
+.contact-item:last-child{
+    margin-right: 0;
+}
 
 .contact-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -154,7 +191,7 @@ border: 1px solid #ECECEC;
 }
 
 .hero-title{
-    width: 696px;
+    max-width: 696px;
     margin: 0 auto;
 
     font-weight: 900;
@@ -171,12 +208,11 @@ border: 1px solid #ECECEC;
 .work-list{
     display: flex;
 }
-.work-item{
+.work-item:not(:last-child){
     margin-right: 30px;
+
 }
-.work-item:last-child{
-    margin-right: 0px;
-}
+
 .work-subtitle{
     
     margin-bottom: 10px;
@@ -196,11 +232,8 @@ border: 1px solid #ECECEC;
 .about-list{
     display: flex;
 }
-.about-item{
+.about-item:not(:last-child){
     margin-right: 30px;
-}
-.about-item:nth-child(3){
-    margin-right: 0px;
 }
 
 
@@ -297,6 +330,10 @@ border: 1px solid #ECECEC;
 .footer-contact-link:hover,
 .footer-contact-link:focus{
     color: var(--accent-color);
+}
+
+.footer-logo {
+    color: var(--white-color)
 }
 
  /* ---Portfolio--- */
