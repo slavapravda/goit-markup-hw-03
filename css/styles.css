@@ -196,7 +196,33 @@ body {
 
   color: var(--white-color);
 }
+/* button */
 
+.hero-button {
+  display: inline-block;
+  margin-top: 30px;
+  min-width: 200px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
 /* work*/
 .work-list {
   display: flex;
@@ -227,33 +253,7 @@ body {
   margin-right: 30px;
 }
 
-/* button */
 
-.hero-button {
-  display: inline-block;
-  margin-top: 30px;
-  min-width: 200px;
-  padding: 10px 32px;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  border: none;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #188ce8;
-}
 
 /* team*/
 
